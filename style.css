@@ -37,6 +37,7 @@ body {
     width: 150px;
     border: 1px solid #000;
     background-color:aquamarine;
+    animation: float 10s linear infinite;
 }
 
 .tool-tip {
@@ -58,4 +59,13 @@ body {
 
 .tool-tip p span {
     font-weight: 500;
+}
+
+@keyframes float {
+    0% {
+    transform: translateX(-20px) translateY(0px);
+    }
+    100% {
+    transform: translateX(105vw) translateY(-20px);
+    }
 }
