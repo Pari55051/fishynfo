@@ -79,7 +79,7 @@ body {
 
 .clownfish {
     top: 17%;
-    left: -100px;
+    left: -150px;
     background-image: url('./assets/clownfish.png');
     animation-duration: 26s;
     width: 100px;
@@ -98,18 +98,18 @@ body {
 
 .butterflyFish {
     top: 47%;
-    left: -120px;
+    left: -420px;
     background-image: url('./assets/butterfly-fish.png');
-    animation-duration: 19s;
+    animation-duration: 21s;
     width: 120px;
     height: 120px;
 }
 
 .tuna {
     top: 70%;
-    left: -160px;
+    left: -260px;
     background-image: url('./assets/tuna.png');
-    animation-duration: 25s;
+    animation-duration: 27s;
     width: 200px;
     height: 150px;
 }
