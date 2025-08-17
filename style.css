@@ -9,7 +9,7 @@
 body {
     /* background-color: rgb(71, 115, 218); */
     /* background: url(./assets/sea.jpeg); */
-    background: url('./assets/bg2.jpg') no-repeat center center fixed;
+    background: url('./assets/bg.jpg') no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
     font-family: "Karla", sans-serif;
