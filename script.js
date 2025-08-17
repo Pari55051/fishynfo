@@ -65,3 +65,23 @@ function handleMouseMove (e) {
     const wrapper = document.getElementById(ID)
     wrapper.setAttribute("style", handlePosition(e))
 }
+
+
+
+
+const audio = document.getElementById('bg-music');
+    const toggleBtn = document.getElementById('music-toggle');
+
+    let isPlaying = false;
+
+    toggleBtn.addEventListener('click', () => {
+      if (!isPlaying) {
+        audio.play();
+        toggleBtn.innerHTML = "<i class='ph-fill ph-speaker-high'></i>"
+        isPlaying = true;
+      } else {
+        audio.pause();
+        toggleBtn.innerHTML = "<i class='ph-fill ph-speaker-slash'></i>"
+        isPlaying = false;
+      }
+    });
