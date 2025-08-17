@@ -79,9 +79,9 @@ body {
 
 .clownfish {
     top: 17%;
-    left: -150px;
+    left: -250px;
     background-image: url('./assets/clownfish.png');
-    animation-duration: 26s;
+    animation-duration: 25s;
     width: 100px;
     height: 100px;
     /* transform: rotate(45deg); */
