@@ -1,7 +1,7 @@
-# Fishynfo
-Fishynfo is a website for getting info about fishes
+# Fishynfo - V2
+This is a website to get info about various fish. It's like info, but fishy....
 
-Live Demo: [https://pari55051.github.io/fishynfo/]
+Live Demo: [https://pari55051.github.io/fishynfo/](https://pari55051.github.io/fishynfo/)
 
 
 ## Overview
@@ -18,6 +18,16 @@ Live Demo: [https://pari55051.github.io/fishynfo/]
 
 ### Screenshot
 ![preview 1](./preview.png)
+
+### About V2
+I had made this project very very long ago, when I just started out with web dev. This is a completely new revamp for the same idea, with better features, implemented in a better way.
+The update includes:
+- better animation on the fish
+- beter suited content for the title
+- background music
+- better hover effect
+- better images
+- better responsiveness
 
 
 ## Credits
