@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
 :root {
     margin: 0;
     padding: 0;
@@ -6,8 +8,11 @@
 
 body {
     /* background-color: rgb(71, 115, 218); */
-    /* background: url(./assets/bg.jpeg); */
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* background: url(./assets/sea.jpeg); */
+    background: url('./assets/bg2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    font-family: "Karla", sans-serif;
     color: #fff;
     width: 99vw;
     height: 95vh;
@@ -15,39 +20,38 @@ body {
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-    background-color: beige;
 }
 
 .title {
     height: 8%;
     width: 100%;
     text-align: center;
-    background-color: burlywood;
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 .container {
     /* min-height: 90%; */
     width: 100%;
     height: 92%;
-    background-color: blueviolet;
 }
 
 .fish {
+    position: absolute;
     height: 80px;
     width: 150px;
-    border: 1px solid #000;
-    background-color:aquamarine;
+    /* border: 1px solid #000; */
     animation: float 10s linear infinite;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .tool-tip {
-    /* border: 3px solid #000; */
-    /* background: rgba(10, 185, 254, 0.6); */
-    /* background: rgba(255, 127, 80, 0.9); */
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
     width: fit-content;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 0.2rem 0.75rem;
     border-radius: 0.75rem;
     line-height: 0.75;
@@ -68,4 +72,53 @@ body {
     100% {
     transform: translateX(105vw) translateY(-20px);
     }
+}
+
+
+/* SPECIFIC STYLES */
+
+.clownfish {
+    top: 17%;
+    left: -100px;
+    background-image: url('./assets/clownfish.png');
+    animation-duration: 26s;
+    width: 100px;
+    height: 100px;
+    /* transform: rotate(45deg); */
+}
+
+.blueTang {
+    top: 30%;
+    left: -600px;
+    background-image: url('./assets/blue-tang.png');
+    animation-duration: 37s;
+    width: 110px;
+    height: 110px;
+}
+
+.butterflyFish {
+    top: 47%;
+    left: -120px;
+    background-image: url('./assets/butterfly-fish.png');
+    animation-duration: 19s;
+    width: 120px;
+    height: 120px;
+}
+
+.tuna {
+    top: 70%;
+    left: -160px;
+    background-image: url('./assets/tuna.png');
+    animation-duration: 25s;
+    width: 200px;
+    height: 150px;
+}
+
+.koi {
+    top: 60%;
+    left: -520px;
+    background-image: url('./assets/koi.png');
+    animation-duration: 32s;
+    width: 200px;
+    height: 150px;
 }

@@ -39,7 +39,7 @@ function handleMouseOver (e) {
 
     // console.log(wrapper)
 
-    wrapper.setAttribute('style', 'opacity: 1; transform: sclae(0.8);')
+    wrapper.setAttribute('style', 'opacity: 1; transform: scale(0.5);')
 
     wrapper.innerHTML = hoverContent
     document.body.append(wrapper)
@@ -52,7 +52,7 @@ function handleMouseLeave (e) {
     const ID = e.target.getAttribute('data-hoverDiv-id')
 
     document.getElementById(ID).style.opacity = 0
-    document.getElementById(ID).style.transform = "scale(0.8)"
+    document.getElementById(ID).style.transform = "scale(0.5)"
 
     setTimeout(() => {
         document.getElementById(ID).remove()
